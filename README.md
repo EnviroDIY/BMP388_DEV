@@ -1,6 +1,8 @@
 # BMP388_DEV
 An Arduino compatible, non-blocking, I2C/SPI library for the Bosch BMP388 barometer.
 
+**NOTE: This Library is a copy from https://github.com/MartinL1/BMP388_DEV**, which became unavailable in mid-2023.
+
 ![alt text](https://cdn-learn.adafruit.com/assets/assets/000/072/428/small360/sensors_BMP388_Top_Angle.jpg?1551997243 "Adafruit BMP388 Breakout Board")
 
 © Copyright, image courtesy of [Adafruit Industries](https://www.adafruit.com/product/3966) lisensed under the terms of the [Create Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/legalcode). 
@@ -19,21 +21,23 @@ This BMP388_DEV library offers the following features:
 ---
 ## __Contents__
 
-1. [Version](#version)
-2. [Arduino Compatiblility](#arduino_compatibility)
-3. [Installation](#installation)
-3. [Usage](#usage)
-	1. [BMP388_DEV Library](#bmp388_dev_library)
-	2. [Device Initialisation](#device_intialisation)
-	3. [Device Configuration](#device_configuration)
-	4. [Modes Of Operation](#modes_of_operation)
-	5. [Results Acquisition](#results_acquisition)
-	6. [Code Implementation](#code_implementation)
-4. [Additional Features](#additional_features)
-	1. [Interrupts](#interrupts)
-	2. [FIFO (First In First Out) Operation](#fifo_operation)
-	3. [FIFO Operation With Interrupts](#fifo_operation_with_interrupts)
-5. [Example Code](#example_code)
+- [BMP388\_DEV](#bmp388_dev)
+  - [__Contents__](#contents)
+  - [__Version__](#version)
+  - [__Arduino Compatibility__](#arduino-compatibility)
+  - [__Installation__](#installation)
+  - [__Usage__](#usage)
+    - [__BMP388\_DEV Library__](#bmp388_dev-library)
+    - [__Device Initialisation__](#device-initialisation)
+    - [__Device Configuration__](#device-configuration)
+    - [__Modes Of Operation__](#modes-of-operation)
+    - [__Results Acquisition__](#results-acquisition)
+    - [__Code Implementation__](#code-implementation)
+  - [__Additional Features__](#additional-features)
+    - [__Interrupts__](#interrupts)
+    - [__FIFO (First In First Out) Operation__](#fifo-first-in-first-out-operation)
+    - [__FIFO Operation with Interrupts__](#fifo-operation-with-interrupts)
+  - [__Example Code__](#example-code)
 	
 <a name="version"></a>
 ## __Version__
